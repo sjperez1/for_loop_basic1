@@ -5,13 +5,13 @@ for x in range(0, 151):
 for multiples in range(5, 1001, 5):
     print(multiples)
 # 3. Counting, the Dojo Way
-for DojoCount in range(1, 101):
-    if DojoCount % 10 == 0:
+for dojo_count in range(1, 101):
+    if dojo_count % 10 == 0:
         print("Coding Dojo")
-    elif DojoCount % 5 == 0:
+    elif dojo_count % 5 == 0:
         print("Coding")
     else:
-        print(DojoCount)
+        print(dojo_count)
 # 4. Woah, That's Huge
 num_sum = 0
 for odd_num in range(0, 500001):
@@ -22,9 +22,9 @@ print(num_sum)
 for num in range(2018, 0, -4):
     print(num)
 # 6. Flexible Counter
-lowNum = 6
-highNum = 228
+low_num = 6
+high_num = 228
 mult = 7
-for mult_print in range(lowNum, highNum + 1):
+for mult_print in range(low_num, high_num + 1):
     if mult_print % mult == 0:
         print(mult_print)
